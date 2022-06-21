@@ -102,13 +102,13 @@
                   </Group>
               </OfficeTab>
             </ExtensionPoint>
-            <ExtensionPoint xsi:type="LaunchEvent">
+            <!-- <ExtensionPoint xsi:type="LaunchEvent">
               <LaunchEvents>
                 <LaunchEvent Type="OnMessageAttachmentsChanged" FunctionName="onMessageAttachmentsChangedHandler" />
               </LaunchEvents>
-              <!-- Identifies the runtime to be used (also referenced by the Runtime element). -->
+              Identifies the runtime to be used (also referenced by the Runtime element).
               <SourceLocation resid="WebViewRuntime.Url"/>
-            </ExtensionPoint>
+            </ExtensionPoint> -->
             <ExtensionPoint xsi:type="Events">
                 <Event Type="ItemSend" FunctionExecution="synchronous" FunctionName="onSendValidateAttachments" />
             </ExtensionPoint>
