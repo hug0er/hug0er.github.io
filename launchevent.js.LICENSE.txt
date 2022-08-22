@@ -6,8 +6,6 @@
  * @version   v4.2.8+1e68dce6
  */
 
-/*! https://mths.be/he v1.2.0 by @mathias | MIT license */
-
 /*! pako 2.0.4 https://github.com/nodeca/pako @license (MIT AND Zlib) */
 
 /*! sheetjs (C) 2013-present SheetJS -- http://sheetjs.com */

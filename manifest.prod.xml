@@ -9,7 +9,7 @@
   <IconUrl DefaultValue="https://hug0er.github.io/assets/icon-128.png"/>
   <HighResolutionIconUrl DefaultValue="https://hug0er.github.io/assets/icon-128.png"/>
   <AppDomains>
-    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://hug0er.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -129,7 +129,7 @@
           <bt:Url id="JSRuntime.Url" DefaultValue="https://hug0er.github.io/launchevent.js" />
         </bt:Urls>
         <bt:ShortStrings>
-          <bt:String id="GroupLabel2" DefaultValue="Kriptos MailTag 2"/>
+          <bt:String id="GroupLabel2" DefaultValue="Ten en cuenta lo siguente"/>
           <bt:String id="GroupLabel" DefaultValue="Kriptos MailTag 2"/>
           <bt:String id="TaskpaneButton.Label" DefaultValue="Kriptos MailTag 2"/>
           <bt:String id="ActionButton.Label" DefaultValue="Perform an action"/>
