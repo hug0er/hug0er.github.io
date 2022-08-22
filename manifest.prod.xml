@@ -7,6 +7,7 @@
   <DisplayName DefaultValue="Kriptos MailTag 2"/>
   <Description DefaultValue="Kriptos MailTag 2"/>
   <IconUrl DefaultValue="https://hug0er.github.io/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://hug0er.github.io" />
   <HighResolutionIconUrl DefaultValue="https://hug0er.github.io/assets/icon-128.png"/>
   <AppDomains>
     <AppDomain>https://hug0er.github.io</AppDomain>
@@ -102,13 +103,13 @@
                   </Group>
               </OfficeTab>
             </ExtensionPoint>
-            <!-- <ExtensionPoint xsi:type="LaunchEvent">
+            <ExtensionPoint xsi:type="LaunchEvent">
               <LaunchEvents>
                 <LaunchEvent Type="OnMessageAttachmentsChanged" FunctionName="onMessageAttachmentsChangedHandler" />
               </LaunchEvents>
-              Identifies the runtime to be used (also referenced by the Runtime element).
+              <!-- Identifies the runtime to be used (also referenced by the Runtime element). -->
               <SourceLocation resid="WebViewRuntime.Url"/>
-            </ExtensionPoint> -->
+            </ExtensionPoint>
             <ExtensionPoint xsi:type="Events">
                 <Event Type="ItemSend" FunctionExecution="synchronous" FunctionName="onSendValidateAttachments" />
             </ExtensionPoint>
@@ -126,7 +127,7 @@
           <bt:Url id="Taskpane.Url" DefaultValue="https://hug0er.github.io/taskpane.html"/>
           <bt:Url id="WebViewRuntime.Url" DefaultValue="https://hug0er.github.io/commands.html" />
           <!-- Entry needed for Outlook Desktop. -->
-          <!-- <bt:Url id="JSRuntime.Url" DefaultValue="https://hug0er.github.io/launchevent.js" /> -->
+          <bt:Url id="JSRuntime.Url" DefaultValue="https://hug0er.github.io/launchevent.js" />
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel2" DefaultValue="Ten en cuenta lo siguente"/>
