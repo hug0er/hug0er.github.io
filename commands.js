@@ -3044,7 +3044,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\commands\\commands.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\commands\\commands.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3064,7 +3064,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\commands\\commands.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\commands\\commands.ts");
   }
 }();
 
@@ -3118,7 +3118,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\commands\\compose\\getWarningMessages.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\commands\\compose\\getWarningMessages.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3138,7 +3138,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\commands\\compose\\getWarningMessages.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\commands\\compose\\getWarningMessages.ts");
   }
 }();
 
@@ -3489,7 +3489,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\commands\\compose\\onSendValidateAttachments.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\commands\\compose\\onSendValidateAttachments.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3509,7 +3509,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\commands\\compose\\onSendValidateAttachments.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\commands\\compose\\onSendValidateAttachments.ts");
   }
 }();
 
@@ -3546,7 +3546,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\config.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\config.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3566,7 +3566,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\config.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\config.ts");
   }
 }();
 
@@ -3601,7 +3601,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\constants\\supportedType.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\constants\\supportedType.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3621,7 +3621,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\constants\\supportedType.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\constants\\supportedType.ts");
   }
 }();
 
@@ -3661,7 +3661,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\constants\\wordsInMetada.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\constants\\wordsInMetada.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3681,7 +3681,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\constants\\wordsInMetada.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\constants\\wordsInMetada.ts");
   }
 }();
 
@@ -3721,7 +3721,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\constants\\wordsInPixel.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\constants\\wordsInPixel.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3741,7 +3741,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\constants\\wordsInPixel.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\constants\\wordsInPixel.ts");
   }
 }();
 
@@ -3974,7 +3974,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\addBody.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\addBody.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -3994,7 +3994,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\addBody.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\addBody.ts");
   }
 }();
 
@@ -4249,7 +4249,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\api\\nameClassification.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\api\\nameClassification.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -4269,7 +4269,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\api\\nameClassification.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\api\\nameClassification.ts");
   }
 }();
 
@@ -4328,7 +4328,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classificationMap.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classificationMap.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -4348,7 +4348,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classificationMap.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classificationMap.ts");
   }
 }();
 
@@ -4550,7 +4550,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classifications\\CloudClassification.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classifications\\CloudClassification.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -4570,7 +4570,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classifications\\CloudClassification.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classifications\\CloudClassification.ts");
   }
 }();
 
@@ -5060,7 +5060,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classifications\\EdgeClassification.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classifications\\EdgeClassification.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -5080,7 +5080,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classifications\\EdgeClassification.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classifications\\EdgeClassification.ts");
   }
 }();
 
@@ -5282,7 +5282,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classifications\\IEClassification.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classifications\\IEClassification.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -5302,7 +5302,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\classifications\\IEClassification.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\classifications\\IEClassification.ts");
   }
 }();
 
@@ -5343,7 +5343,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\currentMode.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\currentMode.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -5363,7 +5363,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\currentMode.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\currentMode.ts");
   }
 }();
 
@@ -5665,7 +5665,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\getClassification.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\getClassification.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -5685,7 +5685,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\getClassification.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\getClassification.ts");
   }
 }();
 
@@ -5725,7 +5725,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\getDocumentType.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\getDocumentType.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -5745,7 +5745,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\getDocumentType.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\getDocumentType.ts");
   }
 }();
 
@@ -5982,7 +5982,7 @@ var createSignature = function (oldSignature, attachments) {
     var style = attachmentsStyles(attachment);
     if (!style) return ""; //Not classified documents
 
-    return "<span style='align-items:center; padding-right: 20px;'>".concat(attachment.name + "&nbsp", "<b style=\"color:").concat(style.color, ";\">(").concat(style.name, ")</b></span>");
+    return "<span style='align-items:center; padding-right: 20px; margin: 0px 10px'> ".concat(attachment.name + "&nbsp", "<b style=\"color:").concat(style.color, ";\">(").concat(style.name, ")</b></span>");
   }), "\n</p>\n<div id=\"close\"></div>").replace(/,/g, "") + "".concat(oldSignature, "\n");
 };
 
@@ -6063,7 +6063,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\htmlSignature.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\htmlSignature.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -6083,7 +6083,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\htmlSignature.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\htmlSignature.ts");
   }
 }();
 
@@ -6119,7 +6119,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\isIE.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\isIE.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -6139,7 +6139,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\isIE.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\isIE.ts");
   }
 }();
 
@@ -6409,7 +6409,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\readAttachments.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\readAttachments.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -6429,7 +6429,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\readAttachments.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\readAttachments.ts");
   }
 }();
 
@@ -6532,7 +6532,7 @@ void function register() {
   }
 
   if (typeof webpackExports === 'function') {
-    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\utils.ts");
+    reactHotLoader.register(webpackExports, 'module.exports', "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\utils.ts");
     return;
   }
   /* eslint-disable no-restricted-syntax */
@@ -6552,7 +6552,7 @@ void function register() {
       continue;
     }
 
-    reactHotLoader.register(namedExport, key, "C:\\Users\\hug0e\\Documents\\programacion\\office-addin\\src\\utils\\utils.ts");
+    reactHotLoader.register(namedExport, key, "C:\\Users\\mauss\\Documents\\dream_code\\kriptos\\office-addin\\src\\utils\\utils.ts");
   }
 }();
 

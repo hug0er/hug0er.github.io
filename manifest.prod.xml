@@ -7,7 +7,6 @@
   <DisplayName DefaultValue="Kriptos MailTag 2"/>
   <Description DefaultValue="Kriptos MailTag 2"/>
   <IconUrl DefaultValue="https://hug0er.github.io/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://hug0er.github.io" />
   <HighResolutionIconUrl DefaultValue="https://hug0er.github.io/assets/icon-128.png"/>
   <AppDomains>
     <AppDomain>https://hug0er.github.io</AppDomain>
