@@ -3899,7 +3899,7 @@ var __generator = this && this.__generator || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.obtaintSignature = exports.getBody = exports.addSignature = void 0;
+exports.obtaintSignature = exports.getBody = exports.addSignatureWithBody = exports.addSignature = void 0;
 
 var utils_1 = __webpack_require__(3499);
 
@@ -3923,6 +3923,27 @@ var addSignature = function (text) {
 };
 
 exports.addSignature = addSignature;
+
+var addSignatureWithBody = function (text, signature) {
+  return __awaiter(void 0, void 0, void 0, function () {
+    var item;
+    return __generator(this, function (_a) {
+      item = Office.context.mailbox.item;
+      item.body.setAsync(text + signature, {
+        coercionType: Office.CoercionType.Html,
+        asyncContext: {
+          var3: 1,
+          var4: 2
+        }
+      });
+      return [2
+      /*return*/
+      ];
+    });
+  });
+};
+
+exports.addSignatureWithBody = addSignatureWithBody;
 
 var getBody = function () {
   return __awaiter(void 0, void 0, void 0, function () {
@@ -5904,15 +5925,34 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.clearSignature = exports.createSignature = exports.updateSignature = void 0;
 
-var addBody_1 = __webpack_require__(43303);
+var addBody_1 = __webpack_require__(43303); // export const updateSignature = async (attachments: AttachmentAndClassification[]) => {
+//   try {
+//     const messageBody = await getBody();
+//     console.log("UpdateSignature Body------>", messageBody);
+//     const oldSignature = obtaintSignature(messageBody.value);
+//     console.log("UpdateSignature oldSignature------>", oldSignature);
+//     const cleanSignature = clearSignature(oldSignature);
+//     console.log("UpdateSignature cleanSignature------>", cleanSignature);
+//     if (attachments.length === 0) {
+//       await addSignature(cleanSignature);
+//     } else if (attachments.length > 0) {
+//       const enhancedSignature = createSignature(cleanSignature, attachments);
+//       console.log("UpdateSignature enhancedSignature------>", cleanSignature);
+//       await addSignature(enhancedSignature);
+//     }
+//   } catch (err) {
+//     console.log("UpdateSignature Error in signature------>", err);
+//   }
+// };
+
 
 var updateSignature = function (attachments) {
   return __awaiter(void 0, void 0, void 0, function () {
-    var messageBody, oldSignature, cleanSignature, enhancedSignature, err_1;
+    var messageBody, body, signature, err_1;
     return __generator(this, function (_a) {
       switch (_a.label) {
         case 0:
-          _a.trys.push([0, 6,, 7]);
+          _a.trys.push([0, 4,, 5]);
 
           return [4
           /*yield*/
@@ -5920,53 +5960,38 @@ var updateSignature = function (attachments) {
 
         case 1:
           messageBody = _a.sent();
-          console.log("UpdateSignature Body------>", messageBody);
-          oldSignature = (0, addBody_1.obtaintSignature)(messageBody.value);
-          console.log("UpdateSignature oldSignature------>", oldSignature);
-          cleanSignature = (0, exports.clearSignature)(oldSignature);
-          console.log("UpdateSignature cleanSignature------>", cleanSignature);
-          if (!(attachments.length === 0)) return [3
+          body = (0, exports.clearSignature)(messageBody.value);
+          signature = (0, exports.createSignature)("", attachments);
+          console.log("UpdateSignature Body------>", {
+            signature: signature,
+            body: body,
+            attachments: attachments
+          });
+          if (!(attachments.length > 0)) return [3
           /*break*/
           , 3];
           return [4
           /*yield*/
-          , (0, addBody_1.addSignature)(cleanSignature)];
+          , (0, addBody_1.addSignatureWithBody)(body, signature)];
 
         case 2:
           _a.sent();
 
-          return [3
-          /*break*/
-          , 5];
+          _a.label = 3;
 
         case 3:
-          if (!(attachments.length > 0)) return [3
-          /*break*/
-          , 5];
-          enhancedSignature = (0, exports.createSignature)(cleanSignature, attachments);
-          console.log("UpdateSignature enhancedSignature------>", cleanSignature);
-          return [4
-          /*yield*/
-          , (0, addBody_1.addSignature)(enhancedSignature)];
-
-        case 4:
-          _a.sent();
-
-          _a.label = 5;
-
-        case 5:
           return [3
           /*break*/
-          , 7];
+          , 5];
 
-        case 6:
+        case 4:
           err_1 = _a.sent();
           console.log("UpdateSignature Error in signature------>", err_1);
           return [3
           /*break*/
-          , 7];
+          , 5];
 
-        case 7:
+        case 5:
           return [2
           /*return*/
           ];
