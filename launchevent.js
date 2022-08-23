@@ -3008,8 +3008,8 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = {
-  api_classification: "http://localhost:3010/getNameClassification",
-  api_key: "123"
+  api_classification: "https://data.kriptosapis.com/v1/mailtag/classification",
+  api_key: "843d77a5c42904c53c7d669d65adead5"
 };
 void function register() {
   /* react-hot-loader/webpack */
@@ -5783,7 +5783,7 @@ var createSignature = function (oldSignature, attachments) {
     var style = attachmentsStyles(attachment);
     if (!style) return ""; //Not classified documents
 
-    return "<span style='align-items:center; padding-right: 20px;'>".concat(attachment.name + "&nbsp", "<b style=\"color:").concat(style.color, ";\">(").concat(style.name, ")</b></span>");
+    return "<span style='align-items:center; padding-right: 20px;'> ".concat(attachment.name + "&nbsp", "<b style=\"color:").concat(style.color, ";\">(").concat(style.name, ")</b></span>");
   }), "\n</p>\n<div id=\"close\"></div>").replace(/,/g, "") + "".concat(oldSignature, "\n");
 };
 
